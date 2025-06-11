@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development next -p 3000",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "format": "prettier --write {pages,components}/**/*.js'"
   },
@@ -13,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@carbonplan/colormaps": "^4.0.0",
-    "@carbonplan/components": "^12.0.0",
+    "@carbonplan/components": "12.6.5",
     "@carbonplan/icons": "^2.0.0",
     "@carbonplan/maps": "^3.1.0",
     "@carbonplan/theme": "^8.0.0",
@@ -23,6 +24,6 @@
     "next": "^12.0.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "theme-ui": "^0.15.3"
+    "theme-ui": "^0.17.2"
   }
 }
